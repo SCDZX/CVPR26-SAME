@@ -1,4 +1,4 @@
-# CVPR26-SAME-Sparse-and-Anchored-Model-Editing-
+# CVPR26-SAME-Sparse-and-Anchored-Model-Editing
 Official implementation of SAME: Sparse and Anchored Model Editing  for Heterogeneous Incremental Learning under Limited Data (CVPR2026)
 
 
