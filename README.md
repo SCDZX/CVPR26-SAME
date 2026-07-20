@@ -100,12 +100,13 @@ Due to the randomness in few-shot sampling, sparse gradient masking, and GPU exe
 If you find our work useful, please cite:
 
 ```bibtex
-@inproceedings{
-duan2026retain,
-title={SAME: Sparse and Anchored Model Editing  for Heterogeneous Incremental Learning under Limited Data},
-author={Zixuan Duan and Zeyu Zhang and Fengyuan Lu and Shaofeng Zhang and Wenbin Li and Qi Fan and Yang Gao },
-booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-year={2026}
+@InProceedings{Duan_2026_CVPR,
+    author    = {Duan, Zixuan and Zhang, Zeyu and Lu, Fengyuan and Zhang, Shaofeng and Li, Wenbin and Fan, Qi and Gao, Yang},
+    title     = {SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {25055-25065}
 }
 ```
 
