@@ -1,8 +1,6 @@
 # CVPR26 Highlight: SAME: Sparse and Anchored Model Editing
 
-Official implementation of **SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data** (CVPR 2026 Highlight).
-
-[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Duan_SAME_Sparse_and_Anchored_Model_Editing_for_Heterogeneous_Incremental_Learning_CVPR_2026_paper.html)
+Official implementation of **SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data** (CVPR 2026 Highlight). [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Duan_SAME_Sparse_and_Anchored_Model_Editing_for_Heterogeneous_Incremental_Learning_CVPR_2026_paper.html)
 
 This folder contains the MTIL split2 5-shot workflow used by SAME. The workflow trains task-specific sparse updates, accumulates one anchored KV statistics file, edits a base CLIP model, and evaluates the edited model under a shared class-incremental label space.
 
@@ -81,7 +79,7 @@ The final `mean_top1` is the arithmetic mean over the 22 split-task Top-1 accura
 
 ## Expected Results
 
-Due to the randomness in few-shot sampling, sparse gradient masking, and GPU execution, exact numbers may vary slightly across runs and environments. With the default split2 5-shot hyperparameters, the independent fine-tuning mean Top-1 is typically around `69`, and the final edited single-model mean Top-1 is expected to be above `65`.
+Due to the randomness in few-shot sampling, sparse gradient masking, and GPU execution, exact numbers may vary slightly across runs and environments. With the default split2 5-shot hyperparameters, the independent fine-tuning mean Top-1 is typically around `69`, and the final edited single-model mean Top-1 is expected to be above `65`. This release is a refactored version of our experimental codebase, organized to make the SAME MTIL workflow easier to read, reproduce, and extend.
 
 ## Important Options
 
