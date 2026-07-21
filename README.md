@@ -79,7 +79,7 @@ The final `mean_top1` is the arithmetic mean over the 22 split-task Top-1 accura
 
 ## Expected Results
 
-Due to the randomness in few-shot sampling, sparse gradient masking, and GPU execution, exact numbers may vary slightly across runs and environments. With the default split2 5-shot hyperparameters, the independent fine-tuning mean Top-1 is typically around `69`, and the final edited single-model mean Top-1 is expected to be above `65`. This release is a refactored version of our experimental codebase, organized to make the SAME MTIL workflow easier to read, reproduce, and extend.
+Due to the randomness in few-shot sampling, sparse gradient masking, and GPU execution, exact numbers may vary slightly across runs and environments. With the default split2 5-shot hyperparameters, the independent fine-tuning mean Top-1 is typically around `69`, and the final edited single-model mean Top-1 is expected to be above `65`.
 
 ## Important Options
 
